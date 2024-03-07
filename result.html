@@ -1,79 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Làm bài</title>
-  <link rel="stylesheet" href="./assets/css/exam.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form Style</title>
     <style>
-        
         body {
-            font-family: Arial, sans-serif;
-            font-size: 25px;
+            font-family: 'Roboto', sans-serif; /* Google's Roboto font for better consistency */
             margin: 0;
             padding: 0;
-            background-color: #fff; /* Trắng */
-            color: #000000; /* Đỏ */
+            background-color: #f4f4f4; /* Google Form background color */
         }
 
-        .result-container {
-            /* width: 300px; */
-            margin-left: auto;
-            margin-right: auto;
+        .content-box {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #fff; /* White background for content */
             padding: 20px;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Google Form box shadow */
         }
 
-        h2 {
-            margin-bottom: 20px;
-        }
-
-        .result-info p {
-            margin-bottom: 10px;
-        }
-
-        .result-info span {
-            font-weight: bold;
-        }
-
-        .review-answers {
-            margin-top: 20px;
-            border-top: 1px solid #ff0000; /* Đường viền đỏ */
-            padding-top: 20px;
-        }
-        .review-answer {
-            background-color: #e46306;
-            color: white;
-            padding: 12px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 16px;
-            }
-        .sentences {
-            color: black;
-        }
-        .review-answers h3 {
-            margin-bottom: 10px;
-            color: #ff0000; /* Đỏ */
+        h1 {
+            color: #4285f4; /* Google's blue color for headings */
         }
     </style>
 </head>
 <body>
+    <div class="content-box">
+        <h1 style="padding-left: 120px; color: black;">Kết quả đã được gửi đi!</h1>
+        <h1 style="padding-left: 120px; color: black;">Cảm ơn bạn đã tham gia!</h1>
 
-      <div class="result-container">
-        <div class="result">
-            <h1 style="color: #000000;">Kết quả đã được gửi đi!</h1>
-            <h1 style="color: #000000;">Cảm ơn bạn đã tham gia!</h1>
-        </div>
-        <div id="answers" class="review-answer" style="display: none;">
-            <!-- Đoạn mã JavaScript sẽ điền vào đây -->
-        </div>
+    </div>
 </body>
-<script>
-    
-</script>
-<script src="./assets/js/result.js"></script>
 </html>
