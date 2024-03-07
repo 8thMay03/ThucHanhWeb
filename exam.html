@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Exam</title>
+    <link rel="stylesheet" href="./assets/css/exam.css">
+</head>
+
+<body>
+    <form action="">
+
+        <div class="main" id="userData"">
+            <h1>Welcome to exam</h1>
+            <h2>Name: Khanh</h2>
+            <h2>Date of birth: 03/03/2003</h2>
+            <h2>ID: 123456789</h2>
+        </div>
+
+        <!-- True/False -->
+        <div class="tf">
+            <h3> True/False <span style="color: red;">*</span></h3>
+            <label><input type="radio" name="tf" value="Option 1" id="" >True</label>
+            <br>
+            <label><input type="radio" name="tf" value="Option 2" id="" >False</label>
+        </div>
+        
+
+        <!-- Multiple Choice -->
+        <div class="mcq">
+            <h3>Multi Choices Questions <span style="color: red;">*</span></h3>
+            <label><input type="radio" name="mcq" value="Option 1" id="" >Option 1</label>
+            <br>
+            <label><input type="radio" name="mcq" value="Option 2" id="" >Option 2</label>
+            <br>
+            <label><input type="radio" name="mcq" value="Option 3" id="" >Option 3</label>
+            <br>
+            <label><input type="radio" name="mcq" value="Option 4" id="" >Option 4</label>
+        </div>
+
+
+        <!-- Checkbox -->
+        <div class="checkbox">
+            <h3>Multi Answers Questions<span style="color: red;">*</span></h3>
+            <label><input type="checkbox" name="checkbox[]" value="Option 1" id="" >Option 1</label>
+            <br>
+            <label><input type="checkbox" name="checkbox[]" value="Option 2" id="" >Option 2</label>
+            <br>
+            <label><input type="checkbox" name="checkbox[]" value="Option 3" id="" >Option 3</label>
+            <br>
+            <label><input type="checkbox" name="checkbox[]" value="Option 3" id="" >Option 4</label>
+        </div>
+
+        <!-- Short Answer -->
+        <div class='sh-ans'>
+            <h3>Short Answer <span style="color: red;">*</span></h3>
+            <input type="text" name="shortAnswer" placeholder="Your Answer" id="" >
+        </div>
+
+
+        <div
+            style="width: 40vw; display: flex; justify-content: space-between; align-items: center; margin: 20px auto; padding: 0 20px;">
+            <button type="submit"> <a href="result.html" style="color: white; ">Submit</a></button>
+
+        
+        </div>
+
+    </form>
+
+
+
+</body>
+
+</html>

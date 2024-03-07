@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #b5b1bb;
+    margin: 0;
+    padding: 0;
+}
+
+.user-content {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.exam-content {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fffdfd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    color: #445ecf;
+}
+
+#userInfo {
+    margin-top: 20px;
+}
+
+#userInfo p {
+    margin-bottom: 10px;
+}
+
+.scale-container {
+    text-align: center;
+
+    margin: 20px;
+}
+
+.scale-label {
+    display: inline-block;
+    width: 20px;
+}
+
+.scale-radio {
+    margin: 5px;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+
+}
+
+* {
+    font-family: poppins;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ede6f6;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    height: 200px;
+    width: 40vw;
+    box-sizing: border-box;
+    background-color: white;
+    border-top: 12px solid #663ab5;
+    border-radius: 10px;
+    margin: 13px;
+    margin-bottom: 0;
+    padding: 10px;
+    padding-left: 30px;
+    font-size: 13px;
+}
+
+.main h1 {
+    font-size: 25px;
+}
+
+.name {
+    background-color: white;
+    box-sizing: border-box;
+    height: 150px;
+    width: 40vw;
+    margin: 13px;
+    padding: 10px;
+    padding-left: 30px;
+    margin-bottom: 0;
+    border-radius: 10px;
+}
+
+.tf {
+    background-color: white;
+    box-sizing: border-box;
+    height: 140px;
+    width: 40vw;
+    margin: 13px;
+    padding: 10px;
+    padding-left: 30px;
+    margin-bottom: 0;
+    border-radius: 10px;
+}
+
+.mcq {
+    background-color: white;
+    box-sizing: border-box;
+    height: 170px;
+    width: 40vw;
+    margin: 13px;
+    padding: 10px;
+    padding-left: 30px;
+    margin-bottom: 0;
+    border-radius: 10px;
+}
+
+.checkbox {
+    background-color: white;
+    box-sizing: border-box;
+    height: 170px;
+    width: 40vw;
+    margin: 13px;
+    padding: 10px;
+    padding-left: 30px;
+    margin-bottom: 0;
+    border-radius: 10px;
+}
+
+.sh-ans {
+    background-color: white;
+    box-sizing: border-box;
+    height: 150px;
+    width: 40vw;
+    margin: 13px;
+    padding: 10px;
+    padding-left: 30px;
+    margin-bottom: 0;
+    border-radius: 10px;
+}
+
+
+
+input[type="text"],
+[type="email"] {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 90%;
+    padding: 5px;
+}
+
+button {
+    margin: 13px;
+    margin-bottom: 0;
+    align-self: flex-start;
+    position: relative;
+    left: 92px;
+    padding: 8px 19px;
+    border-radius: 3px;
+    background-color: #663ab5;
+    border: none;
+    color: white;
+}
+
+.submit {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+button {
+    margin: 13px;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding: 8px 19px;
+    border-radius: 3px;
+    background-color: #663ab5;
+    border: none;
+    color: white;
+}
+
+button:hover {
+    background-color: #452286;
+    transition: ease-in 200ms;
+}
+
+.rule {
+    width: 50vw;
+    margin-top: 15px;
+    font-size: 13px;
+    color: grey;
+}
+
+.policy {
+    font-size: 14px;
+    color: grey;
+}
+
+.policy a {
+    text-decoration: none;
+    color: grey;
+    text-decoration: underline;
+}
+
+img {
+    margin-top: 13px;
+    height: 200px;
+    width: 50vw;
+    object-fit: fill;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.Google {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    img,
+    .main,
+    .name,
+    .email,
+    .submit,
+    .rule,
+    .policy,
+    .Google {
+        width: 90vw;
+    }
+
+    img {
+        height: 125px;
+    }
+
+    .main {
+        height: 180px;
+        font-size: 12px;
+    }
+
+    .name,
+    .email {
+        height: 110px;
+        font-size: 12px;
+    }
+
+    .main h1 {
+        font-size: 18px;
+    }
+
+    .main p,
+    h4 {
+        margin: 10px 0px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    input[type="text"],
+    [type="email"] {
+        padding: 5;
+    }
+
+    button {
+        padding: 10px 22px;
+        border-radius: 5px;
+    }
+}
